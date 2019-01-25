@@ -15,8 +15,6 @@ grpc.web = require('grpc-web');
 var cs3_rpc_status_pb = require('../../../cs3/rpc/status_pb.js')
 
 var cs3_share_v0alpha_resources_pb = require('../../../cs3/share/v0alpha/resources_pb.js')
-
-var google_api_annotations_pb = require('../../../google/api/annotations_pb.js')
 const proto = {};
 proto.cs3 = {};
 proto.cs3.sharev0alpha = require('./share_pb.js');

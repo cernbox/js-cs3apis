@@ -13,7 +13,6 @@ var global = Function('return this')();
 
 var cs3_auth_v0alpha_resources_pb = require('../../../cs3/auth/v0alpha/resources_pb.js');
 var cs3_rpc_status_pb = require('../../../cs3/rpc/status_pb.js');
-var google_api_annotations_pb = require('../../../google/api/annotations_pb.js');
 goog.exportSymbol('proto.cs3.authv0alpha.GenerateAccessTokenRequest', null, global);
 goog.exportSymbol('proto.cs3.authv0alpha.GenerateAccessTokenResponse', null, global);
 goog.exportSymbol('proto.cs3.authv0alpha.WhoAmIRequest', null, global);
