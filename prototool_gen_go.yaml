@@ -1,0 +1,9 @@
+generate:
+  plugins:
+    - name : js
+      flags: import_style=commonjs
+      output: ../src
+    
+    - name : grpc-web
+      flags: import_style=commonjs,mode=grpcwebtext
+      output: ../src
